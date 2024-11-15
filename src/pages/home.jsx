@@ -100,7 +100,7 @@ const Home = () => {
       </div>
       <div className="bottomers mt-[100px] flex flex-row w-full justify-center gap-20">
         <p className="text-[#ACACAC] text-[43px] font-mulish font-normal">Нет аккаунта?</p>
-        <p onClick={()=> window.open('/register', "_current")} className="text-[#634F9E] text-[42px] font-mulish font-normal ext-[]">Зарегистрироваться</p>
+        <p onClick={()=> window.open('/register', "_current")} className="text-[#634F9E] cursor-pointer text-[42px] font-mulish font-normal ext-[]">Зарегистрироваться</p>
       </div>
       <div className="laste mt-11 flex justify-center items-center max-w-[1050px] mx-auto mb-14">
         <p className="text-[#000000] text-center font-light text-[36px] mt-10">

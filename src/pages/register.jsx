@@ -83,6 +83,7 @@ const Register = () => {
         <Button
           colorPalette="teal"
           variant="solid"
+          onClick={()=>window.open('/number', "_current")}
           className="bg-[#634F9E] w-full gap-10 shadow-md font-popins font-bold text-white py-10 h-auto rounded-[19px] px-[100px] text-[53px]"
         >
           <PhoneIcon /> по номеру телефона
