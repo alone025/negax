@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body,
+html {
+  background-color: #fff;
+}
+
+.customText {
+  background: var(--1, linear-gradient(99deg, #6a59a7 32.12%, #edabc6 73.62%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@font-face {
+  font-family: ProMonument;
+  src: url(../public/fonts/PFMonumentaPro-Regular.woff);
+}
+
+@font-face {
+    font-family: PoppinsFont;
+    src: url(../public/fonts/Poppins-Bold.woff);
+  }
+
+.font-promonument {
+  font-family: "ProMonument", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.font-poppins {
+    font-family: "PoppinsFont", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  
+}
+
+.font-mulish {
+  font-family: "Mulish", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+.css-13cymwt-control, .css-t3ipsp-control{
+  padding-left: 80px ;
+  padding-right: 80px ;
+  padding-top: 40px ;
+  padding-bottom: 40px;
+  border-width: 2px !important;
+  border-color: #ACACAC;
+  border-radius: 18px !important;
+  font-size: 67px;
+  font-family: 500;
+  color: #5E5E5E;
+  font-family: "Mulish", serif;
+  
+}
+
+.chakra-input.PhoneInputInput.css-1145hk9{
+  height: 100%;
+  outline: none;
+}
